@@ -19,8 +19,8 @@ public class MyCollection {
 	 */
 	public static void main(String[] args) {
 		if(args.length == 1){
-			List<Album> myCollection =  CollectionFactory.loadCollection(args[0]);
-			if (myCollection !=null){
+			//List<Album> myCollection =  CollectionFactory.loadCollection(args[0]);
+			//if (myCollection !=null){
 				UserInterface ui = new UserInterface(myCollection);
 				ui.start();
 			}else{

@@ -16,7 +16,7 @@ public class UserInterface{
 
         do{
 
-
+        System.out.println("test");
         }while(selection.charAt(0) != 'q');
 
 
