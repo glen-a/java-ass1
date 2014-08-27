@@ -21,12 +21,12 @@ public class MyCollection {
 		if(args.length == 1){
 			//List<Album> myCollection =  CollectionFactory.loadCollection(args[0]);
 			//if (myCollection !=null){
-				UserInterface ui = new UserInterface(myCollection);
+				UserInterface ui = new UserInterface();//(myCollection);
 				ui.start();
-			}else{
-				System.out.println("Error: Failed to load collection. Exit!");
-				System.exit(0);
-			}
+			//}else{
+			//	System.out.println("Error: Failed to load collection. Exit!");
+			//	System.exit(0);
+			//}
 		}else{
 			System.out.println("Usage: MyCollection collectionFilename");
 		}
